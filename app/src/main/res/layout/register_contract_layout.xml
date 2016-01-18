@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/register_contract_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/contract_title"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:padding="10dp"/>
+        <ImageButton
+            android:id="@+id/contract_close_btn"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:src="@android:drawable/ic_menu_close_clear_cancel"/>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/register_contract_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:scrollbars="vertical" />
+</LinearLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true">
+        <TextView
+            android:id="@+id/register_type_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/register_type_title"
+            android:textSize="20sp"
+            android:layout_centerHorizontal="true"
+            android:paddingBottom="18dp" />
+        <Button
+            style="@style/btn_style1"
+            android:id="@+id/register_com_btn"
+            android:layout_width="280dp"
+            android:layout_below="@id/register_type_title"
+            android:layout_centerHorizontal="true"
+            android:text="@string/register_com_btn"
+            android:background="@drawable/demand_btn_normal"
+            android:layout_marginBottom="20dp"/>
+        <Button
+            style="@style/btn_style1"
+            android:id="@+id/register_soft_btn"
+            android:layout_width="280dp"
+            android:layout_below="@id/register_com_btn"
+            android:layout_centerHorizontal="true"
+            android:text="@string/register_soft_btn"
+            android:background="@drawable/register_btn_normal"
+            android:layout_marginBottom="20dp"/>
+        <Button
+            style="@style/btn_style1"
+            android:id="@+id/register_person_btn"
+            android:layout_width="280dp"
+            android:layout_below="@id/register_soft_btn"
+            android:layout_centerHorizontal="true"
+            android:text="@string/register_person_btn"
+            android:background="@drawable/login_btn_normal"/>
+    </LinearLayout>
+
+</RelativeLayout>

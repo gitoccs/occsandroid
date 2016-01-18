@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/change_phone_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/btn_blue_normal">
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <ImageButton
+                android:id="@+id/change_phone_back_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/left_01"
+                android:layout_centerVertical="true"
+                android:background="#00000000"
+                android:padding="10dp"
+                />
+            <TextView
+                android:id="@+id/change_phone_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="修改注册手机"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:layout_centerHorizontal="true"/>
+        </RelativeLayout>
+    </android.support.v7.widget.Toolbar>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="请输入新的绑定手机号码："
+                android:layout_marginBottom="20dp"
+                android:textSize="20dp" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="300dp"
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/change_phone_phone_edit"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/iphone_01"
+                android:inputType="number"
+                android:hint="手机号码">
+                <requestFocus />
+            </EditText>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="300dp"
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/change_phone_phone_code"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/check_01"
+                android:inputType="number"
+                android:hint="请输入验证码" />
+            <Button
+                android:id="@+id/change_phone_phone_code_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="获取验证码"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="7dp"
+                style="@style/btn_style1"
+                android:textSize="14dp"
+                android:background="@drawable/demand_btn_normal"/>
+        </RelativeLayout>
+        <Button
+            android:layout_marginTop="40dp"
+            android:id="@+id/change_phone_phone_yesBtn"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            style="@style/btn_style1"
+            android:text="确 定"/>
+    </LinearLayout>
+
+</LinearLayout>

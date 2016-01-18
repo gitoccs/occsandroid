@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="green">#085100</color>
+    <color name="dark_gray">#3f3f3f</color>
+    <color name="light_gray">#828282</color>
+    <color name="light_light_gray">#d1d1d1</color>
+    <color name="light_light_light_gray">#fcfcfc</color>
+
+    <color name="btn_orange_normal">#e87a49</color>
+    <color name="btn_orange_on">#ffaa5536</color>
+
+    <color name="btn_blue_normal">#0177d9</color>
+    <color name="btn_blue_on">#ff01397e</color>
+
+    <color name="btn_cyan_normal">#07baa7</color>
+    <color name="btn_cyan_on">#ff078071</color>
+
+    <color name="btn_red_normal">#e23f40</color>
+    <color name="btn_red_on">#ffa02c2d</color>
+
+    <color name="btn_gray_normal">#aaaaaa</color>
+    <color name="btn_gray_on">#ff7d7d7d</color>
+
+    <color name="lightlightblue">#f0fffd</color>
+
+    <color name="personinfo_cell_hightlight">#fbe2e7</color>
+    <color name="gongdan_cell_title_blue">#49b3fa</color>
+
+</resources>

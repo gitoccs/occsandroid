@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/indicator_relativelayout">
+    <ImageView
+        android:id="@+id/web_tab_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:paddingTop="3dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/gongdan_0" />
+    <TextView
+        android:id="@+id/web_tab_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="hello"
+        android:textColor="@color/btn_blue_normal"
+        android:textSize="12sp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/web_tab_image"/>
+</RelativeLayout>

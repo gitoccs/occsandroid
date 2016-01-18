@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/my_custom_background"
+        android:layout_margin="10dp">
+        <TextView
+            android:id="@+id/sys_note_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="信息"
+            android:paddingLeft="15dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="20dp"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/sys_note_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/sys_note_message"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="-20dp"
+            android:textSize="12dp"
+            android:hint="时间"
+            android:paddingRight="15dp"
+            android:paddingTop="5dp"
+            android:textColor="@color/btn_red_normal"
+            android:paddingBottom="10dp"/>
+    </RelativeLayout>
+    <ImageView
+        android:id="@+id/sys_note_newimage"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:src="@drawable/newoncell" />
+
+</RelativeLayout>

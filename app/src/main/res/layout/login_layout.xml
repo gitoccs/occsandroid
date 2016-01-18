@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/login_fragment_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/logoImage"
+        android:layout_width="225dp"
+        android:layout_height="225dp"
+        android:paddingTop="65dp"
+        android:layout_gravity="center"
+        android:src="@drawable/occslogo"
+        android:layout_centerHorizontal="true"
+        android:paddingBottom="30dp"/>
+
+    <EditText
+        android:id="@+id/name_input"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textColorHint="@color/light_gray"
+        android:inputType="textPersonName"
+        android:layout_below="@id/logoImage"
+        android:drawableLeft="@drawable/user_01"
+        android:hint="请输入用户名"
+        android:ems="10"
+        android:layout_marginBottom="6dp">
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/pass_input"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:inputType="textPassword"
+        android:layout_below="@id/name_input"
+        android:textColorHint="@color/light_gray"
+        android:drawableLeft="@drawable/password_01"
+        android:ems="10"
+        android:hint="请输入密码"
+        android:layout_marginBottom="35dp"/>
+    <TextView
+        android:id="@+id/find_pass_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="找回密码"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="45dp"
+        android:layout_marginBottom="10dp"
+        android:paddingTop="16dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        android:layout_alignTop="@id/pass_input"/>
+
+    <Button
+        style="@style/btn_style1"
+        android:id="@+id/login_btn"
+        android:layout_width="300dp"
+        android:layout_weight="0.7"
+        android:text="@string/logoin_btn_txt"
+        android:layout_below="@id/pass_input"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="25dp"
+        android:background="@drawable/login_btn_normal"/>
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/login_btn"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true">
+        <Button
+            style="@style/btn_style1"
+            android:id="@+id/register_btn"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="@string/register_btn_txt"
+            android:background="@drawable/register_btn_normal"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="OR"
+            android:gravity="center"
+            android:id="@+id/textView"
+            android:layout_weight="0.4" />
+
+        <Button
+            style="@style/btn_style1"
+            android:id="@+id/demand_btn"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="@string/demand_btn_txt"
+            android:background="@drawable/demand_btn_normal"/>
+    </LinearLayout>
+    <ProgressBar
+        android:id="@+id/web_progressBarLogin"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

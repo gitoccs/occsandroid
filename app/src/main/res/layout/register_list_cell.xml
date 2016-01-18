@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <EditText
+        android:id="@+id/register_cell_edittxt"
+        android:drawableLeft="@drawable/user_01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:password="true"
+        android:textSize="14dp"
+        android:textColorHint="@color/light_gray"
+        android:hint="@string/register_input_hint_username"/>
+
+</RelativeLayout>

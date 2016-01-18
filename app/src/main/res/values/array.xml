@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="planets_array">
+        <item>账号管理</item>
+        <item>我的账户</item>
+        <item>新手帮助</item>
+        <item>联系客服</item>
+        <item>关于OCCS</item>
+    </string-array>
+</resources>

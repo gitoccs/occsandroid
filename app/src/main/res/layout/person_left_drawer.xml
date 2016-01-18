@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/person_linear"
+    android:layout_width="300dp"
+    android:layout_height="match_parent"
+    android:layout_gravity="start"
+    android:orientation="vertical">
+    <LinearLayout
+        android:id="@+id/left_drawer_top"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@color/btn_cyan_normal"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:id="@+id/drawer_person_info_view"
+            android:layout_marginTop="18dp"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_gravity="center">
+            <ImageView
+                android:id="@+id/drawer_person_photo_main"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:scaleType="centerCrop"
+                android:background="#00000000"
+                android:src="@drawable/userpic"
+                android:padding="10dp"/>
+            <ImageView
+                android:id="@+id/drawer_person_photo_main_mask"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/personphotomask_cyan"
+                android:scaleType="centerCrop"
+                android:padding="10dp"/>
+            <LinearLayout
+                android:layout_centerVertical="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:layout_marginLeft="120dp">
+                <TextView
+                    android:id="@+id/person_drawer_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textColor="@color/white"
+                    android:textSize="22sp"
+                    android:text="里德软件"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    android:text="O币: 0"
+                    android:id="@+id/drawer_person_ocoin_txt" />
+            </LinearLayout>
+            <ImageView
+                android:layout_centerVertical="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/right_01"
+                android:layout_alignParentRight="true"
+                android:paddingRight="14dp"/>
+
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:orientation="horizontal">
+            <LinearLayout
+                style="@style/drawer_top_linear">
+                <TextView
+                    style="@style/drawer_text_h_list"
+                    android:text="0"
+                    android:id="@+id/drawer_person_gongdan_all" />
+                <TextView
+                    style="@style/drawer_text_h_list"
+                    android:text="全部工单"/>
+            </LinearLayout>
+            <LinearLayout
+                style="@style/drawer_divider1">
+            </LinearLayout>
+            <LinearLayout
+                style="@style/drawer_top_linear">
+                <TextView
+                    style="@style/drawer_text_h_list"
+                    android:text="0"
+                    android:id="@+id/drawer_person_gongdan_bidding" />
+                <TextView
+                    style="@style/drawer_text_h_list"
+                    android:textColor="@color/white"
+                    android:text="竞标中"/>
+            </LinearLayout>
+            <LinearLayout
+                style="@style/drawer_divider1">
+            </LinearLayout>
+            <LinearLayout
+                style="@style/drawer_top_linear">
+                <TextView
+                    style="@style/drawer_text_h_list"
+                    android:text="0"
+                    android:id="@+id/drawer_person_gongdan_ongoing" />
+                <TextView
+                    style="@style/drawer_text_h_list"
+                    android:textColor="@color/white"
+                    android:text="进行中"/>
+            </LinearLayout>
+            <LinearLayout
+                style="@style/drawer_divider1">
+            </LinearLayout>
+            <LinearLayout
+                style="@style/drawer_top_linear">
+                <TextView
+                    style="@style/drawer_text_h_list"
+                    android:text="0"
+                    android:id="@+id/drawer_person_gongdan_finished" />
+                <TextView
+                    style="@style/drawer_text_h_list"
+                    android:textColor="@color/white"
+                    android:text="已完成"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/left_drawer_list"
+        android:layout_gravity="center"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:choiceMode="singleChoice"
+        android:divider="@color/light_light_gray"
+        android:minHeight="10dp"
+        android:dividerHeight="0.5dp" />
+    <!--<RelativeLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:background="@color/light_light_gray">-->
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="勿扰模式"-->
+            <!--android:textSize="16dp"-->
+            <!--android:layout_marginTop="15dp"-->
+            <!--android:layout_marginLeft="20dp"-->
+            <!--/>-->
+        <!--<ToggleButton-->
+            <!--android:id="@+id/slinece_mode_togglebutton"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_alignParentRight="true"-->
+            <!--android:layout_marginRight="20dp"-->
+            <!--android:textOn="开"-->
+            <!--android:textOff="关" />-->
+    <!--</RelativeLayout>-->
+    <Button
+        android:id="@+id/drawer_cell_logout"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        style="@style/btn_style1"
+        android:text="@string/drawer_logoout"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:background="@drawable/logout_btn_normal"/>
+
+</LinearLayout>

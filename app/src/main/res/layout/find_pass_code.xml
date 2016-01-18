@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="找回密码"
+        android:textSize="24dp"
+        android:layout_marginBottom="50dp"
+        android:layout_marginTop="50dp"/>
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/find_pass_code_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="验证码已经发送到尾号为1234的手机"
+            android:textSize="16dp"
+            android:layout_marginBottom="25dp"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="50dp">
+            <EditText
+                android:id="@+id/find_pass_code_edittext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="请输入验证码"
+                android:textColorHint="@color/light_gray"
+                android:drawableLeft="@drawable/check_01"/>
+            <requestFocus />
+            <Button
+                android:id="@+id/find_pass_code_getcodebtn"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="获取验证码"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="7dp"
+                style="@style/btn_style1"
+                android:textSize="14dp"
+                android:background="@drawable/demand_btn_normal"/>
+        </RelativeLayout>
+        <Button
+            android:id="@+id/find_pass_code_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="下一步"
+            style="@style/btn_style1"
+            android:background="@drawable/login_btn_normal"/>
+    </LinearLayout>
+</LinearLayout>

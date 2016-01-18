@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Work\OCCSAPP\OCCS-android\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\libs\internal_impl-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="C:\Work\OCCSAPP\OCCS-android\app\build\intermediates\pre-dexed\debug\internal_impl-23.1.1_8f8d112b7a92ba82ba5531bf6ef9c720df1e4a06.jar" />
+    </item>
+    <item
+        jar="C:\Work\OCCSAPP\OCCS-android\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="C:\Work\OCCSAPP\OCCS-android\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.1.1_ce424e0baabcbad9b203e6e754997b4164ede940.jar" />
+    </item>
+    <item
+        jar="C:\Work\OCCSAPP\OCCS-android\app\libs\jpush-sdk-release1.7.5.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="c10bf1a834e7a2caa3832c29b530e1ae7cfad0a2">
+        <dex dex="C:\Work\OCCSAPP\OCCS-android\app\build\intermediates\pre-dexed\debug\jpush-sdk-release1.7.5_8621ba80a250f91e95758a80427913da54e2707a.jar" />
+    </item>
+    <item
+        jar="C:\Work\OCCSAPP\OCCS-android\app\libs\org.apache.http.legacy.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="5320fd78dd7f154e586970d4f02befc9b58432aa">
+        <dex dex="C:\Work\OCCSAPP\OCCS-android\app\build\intermediates\pre-dexed\debug\org.apache.http.legacy_5091abbfafe7d8cd8646807fdc13b600bb45e205.jar" />
+    </item>
+    <item
+        jar="C:\Users\liqiuze\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.1\support-annotations-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="C:\Work\OCCSAPP\OCCS-android\app\build\intermediates\pre-dexed\debug\support-annotations-23.1.1_0610a89743d41e4fe7bae408ec25ae5cab6c61e8.jar" />
+    </item>
+    <item
+        jar="C:\Work\OCCSAPP\OCCS-android\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="C:\Work\OCCSAPP\OCCS-android\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.1.1_040235b8b865fe83ae3a26ddbd45c29c34c7e102.jar" />
+    </item>
+    <item
+        jar="C:\Work\OCCSAPP\OCCS-android\app\libs\jpush-sdk-release1.7.5.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c10bf1a834e7a2caa3832c29b530e1ae7cfad0a2">
+        <dex dex="C:\Work\OCCSAPP\OCCS-android\app\build\intermediates\pre-dexed\debug\jpush-sdk-release1.7.5_8621ba80a250f91e95758a80427913da54e2707a.jar" />
+    </item>
+
+</items>

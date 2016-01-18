@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/account_modify_namebtn"
+        style="@style/btn_style1"
+        android:layout_width="280dp"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="15dp"
+        android:background="@drawable/login_btn_normal"
+        android:text="修改密码">
+        <requestFocus />
+    </Button>
+
+    <Button
+        android:id="@+id/account_modify_phonebtn"
+        style="@style/btn_style1"
+        android:layout_width="280dp"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="15dp"
+        android:background="@drawable/login_btn_normal"
+        android:text="重新绑定手机" />
+
+    <Button
+        android:id="@+id/account_modify_emailbtn"
+        style="@style/btn_style1"
+        android:layout_width="280dp"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="15dp"
+        android:background="@drawable/login_btn_normal"
+        android:text="绑定邮箱" />
+</LinearLayout>

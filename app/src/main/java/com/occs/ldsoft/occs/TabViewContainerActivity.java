@@ -300,7 +300,7 @@ public class TabViewContainerActivity extends TabFragmentActivity {
     private void updateOcoinTextView() {
         if (fragment != null){
             PersonLeftDrawerFragment pldf = (PersonLeftDrawerFragment)fragment;
-            pldf.oCoinTextView.setText("O币：" + (int)Float.parseFloat(Person.getPerson().getOcoin()));
+            pldf.oCoinTextView.setText("O币：" + ((int)Float.parseFloat(Person.getPerson().getOcoin())+(int)Float.parseFloat(Person.getPerson().getOcoinCash())));
         }
     }
 
